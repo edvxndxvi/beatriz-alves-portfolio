@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+ * Tokens de design. Cores APROXIMADAS (amostradas visualmente do Figma, que não tem variáveis).
+ * TODO: confirmar valores exatos e fontes com a Bia.
+ */
+@theme {
+  --color-vinho: #5F051C;
+  --color-creme: #FFFFF0;
+  --color-creme-listra: #F9F5E8;
+  --color-limao: #EDF7B7;
+  --color-rosa: #FFE9F1;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Fontes: placeholders até a Bia confirmar quais foram usadas */
+  --font-display: var(--font-display-placeholder), system-ui, sans-serif;
+  --font-sans: var(--font-body-placeholder), system-ui, sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --breakpoint-desktop: 1920px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-creme);
+  color: var(--color-vinho);
+  font-family: var(--font-sans);
+}
+
+/*
+ * Fundo listrado: faixas verticais de 64px alternando creme / creme-listra.
+ */
+.bg-listrado {
+  background-color: var(--color-creme);
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-creme) 0 64px,
+    var(--color-creme-listra) 64px 128px
+  );
+}
+
+/*
+ * Fundo xadrez: duas listras (vertical + horizontal) de 64px que, ao se sobrepor,
+ * escurecem para #F3ECE0 (multiply). A cor de cada listra é creme-listra ÷ creme por canal
+ * (#F9F5F7 sobre #FFFFF0 ≈ #F9F5E8), então o cruzamento fica ≈ #F3ECE0 como no Figma.
+ */
+.bg-xadrez {
+  background-color: var(--color-creme);
+  background-image:
+    repeating-linear-gradient(90deg, #ffffff 0 64px, #f9f5f7 64px 128px),
+    repeating-linear-gradient(0deg, #ffffff 0 64px, #f9f5f7 64px 128px);
+  background-blend-mode: multiply;
+}
+
+/* Respeita quem prefere menos movimento (animações serão adicionadas depois) */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

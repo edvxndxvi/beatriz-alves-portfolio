@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# originais pesados exportados do Figma (não vão para o site)
+/assets-raw/
