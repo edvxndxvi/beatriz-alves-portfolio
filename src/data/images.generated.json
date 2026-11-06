@@ -1,0 +1,1611 @@
+{
+  "cases": {
+    "acao-de-visibilidade": [
+      {
+        "name": "0-acao-de-visibilidade-logo",
+        "src": "/images/cases/acao-de-visibilidade/0-acao-de-visibilidade-logo.svg",
+        "width": 432,
+        "height": 230,
+        "kind": "svg"
+      },
+      {
+        "name": "01a-cards-informativos",
+        "src": "/images/cases/acao-de-visibilidade/01a-cards-informativos.webp",
+        "width": 1518,
+        "height": 714,
+        "kind": "raster"
+      },
+      {
+        "name": "01b-esteira",
+        "src": "/images/cases/acao-de-visibilidade/01b-esteira.webp",
+        "width": 1328,
+        "height": 884,
+        "kind": "raster"
+      },
+      {
+        "name": "01c-totem",
+        "src": "/images/cases/acao-de-visibilidade/01c-totem.webp",
+        "width": 876,
+        "height": 1688,
+        "kind": "raster"
+      },
+      {
+        "name": "01d-figuras",
+        "src": "/images/cases/acao-de-visibilidade/01d-figuras.webp",
+        "width": 1162,
+        "height": 1012,
+        "kind": "raster"
+      },
+      {
+        "name": "01e-esteira-2",
+        "src": "/images/cases/acao-de-visibilidade/01e-esteira-2.webp",
+        "width": 1104,
+        "height": 1046,
+        "kind": "raster"
+      },
+      {
+        "name": "02a-copos",
+        "src": "/images/cases/acao-de-visibilidade/02a-copos.webp",
+        "width": 492,
+        "height": 1352,
+        "kind": "raster"
+      },
+      {
+        "name": "02b-display-mesa",
+        "src": "/images/cases/acao-de-visibilidade/02b-display-mesa.webp",
+        "width": 1664,
+        "height": 1090,
+        "kind": "raster"
+      },
+      {
+        "name": "02c-guardanapo",
+        "src": "/images/cases/acao-de-visibilidade/02c-guardanapo.webp",
+        "width": 2158,
+        "height": 1438,
+        "kind": "raster"
+      },
+      {
+        "name": "02d-carrier-de-copo",
+        "src": "/images/cases/acao-de-visibilidade/02d-carrier-de-copo.webp",
+        "width": 2400,
+        "height": 1599,
+        "kind": "raster"
+      },
+      {
+        "name": "02e-display-mesa-triangular",
+        "src": "/images/cases/acao-de-visibilidade/02e-display-mesa-triangular.webp",
+        "width": 2400,
+        "height": 1598,
+        "kind": "raster"
+      },
+      {
+        "name": "03a-sinalizador-prateleira",
+        "src": "/images/cases/acao-de-visibilidade/03a-sinalizador-prateleira.webp",
+        "width": 510,
+        "height": 1490,
+        "kind": "raster"
+      },
+      {
+        "name": "03b-wobbler",
+        "src": "/images/cases/acao-de-visibilidade/03b-wobbler.webp",
+        "width": 728,
+        "height": 932,
+        "kind": "raster"
+      },
+      {
+        "name": "03c-marca-paginas",
+        "src": "/images/cases/acao-de-visibilidade/03c-marca-paginas.webp",
+        "width": 714,
+        "height": 1364,
+        "kind": "raster"
+      },
+      {
+        "name": "04a-display-mesa",
+        "src": "/images/cases/acao-de-visibilidade/04a-display-mesa.webp",
+        "width": 1388,
+        "height": 896,
+        "kind": "raster"
+      },
+      {
+        "name": "04b-porta-copo",
+        "src": "/images/cases/acao-de-visibilidade/04b-porta-copo.webp",
+        "width": 1062,
+        "height": 736,
+        "kind": "raster"
+      }
+    ],
+    "asics-campanha": [
+      {
+        "name": "0-asics-logo",
+        "src": "/images/cases/asics-campanha/0-asics-logo.svg",
+        "width": 176,
+        "height": 57,
+        "kind": "svg"
+      },
+      {
+        "name": "01a-key-visual",
+        "src": "/images/cases/asics-campanha/01a-key-visual.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "01b-key-visual-promocional",
+        "src": "/images/cases/asics-campanha/01b-key-visual-promocional.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "02a-landing-page",
+        "src": "/images/cases/asics-campanha/02a-landing-page.webp",
+        "width": 648,
+        "height": 2126,
+        "kind": "raster"
+      },
+      {
+        "name": "02b-mockup-site",
+        "src": "/images/cases/asics-campanha/02b-mockup-site.webp",
+        "width": 1724,
+        "height": 1240,
+        "kind": "raster"
+      },
+      {
+        "name": "03a-materiais-pdv",
+        "src": "/images/cases/asics-campanha/03a-materiais-pdv.webp",
+        "width": 1056,
+        "height": 1956,
+        "kind": "raster"
+      },
+      {
+        "name": "03b-vitrine",
+        "src": "/images/cases/asics-campanha/03b-vitrine.webp",
+        "width": 1104,
+        "height": 1962,
+        "kind": "raster"
+      },
+      {
+        "name": "03c-espelho",
+        "src": "/images/cases/asics-campanha/03c-espelho.webp",
+        "width": 750,
+        "height": 1059,
+        "kind": "raster"
+      },
+      {
+        "name": "03d-expositor",
+        "src": "/images/cases/asics-campanha/03d-expositor.webp",
+        "width": 750,
+        "height": 1059,
+        "kind": "raster"
+      },
+      {
+        "name": "03e-arara",
+        "src": "/images/cases/asics-campanha/03e-arara.webp",
+        "width": 750,
+        "height": 1059,
+        "kind": "raster"
+      },
+      {
+        "name": "04-photo-opportunity",
+        "src": "/images/cases/asics-campanha/04-photo-opportunity.webp",
+        "width": 2356,
+        "height": 2282,
+        "kind": "raster"
+      },
+      {
+        "name": "05a-kit-caixa",
+        "src": "/images/cases/asics-campanha/05a-kit-caixa.webp",
+        "width": 1240,
+        "height": 856,
+        "kind": "raster"
+      },
+      {
+        "name": "05b-camera",
+        "src": "/images/cases/asics-campanha/05b-camera.webp",
+        "width": 800,
+        "height": 418,
+        "kind": "raster"
+      },
+      {
+        "name": "05c-brindes",
+        "src": "/images/cases/asics-campanha/05c-brindes.webp",
+        "width": 716,
+        "height": 434,
+        "kind": "raster"
+      },
+      {
+        "name": "05d-carta",
+        "src": "/images/cases/asics-campanha/05d-carta.webp",
+        "width": 1364,
+        "height": 1014,
+        "kind": "raster"
+      }
+    ],
+    "bora-encantar": [
+      {
+        "name": "0-bora-encantar-logo",
+        "src": "/images/cases/bora-encantar/0-bora-encantar-logo.svg",
+        "width": 506,
+        "height": 314,
+        "kind": "svg"
+      },
+      {
+        "name": "01-key-visual",
+        "src": "/images/cases/bora-encantar/01-key-visual.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "02a-jornada-do-cliente",
+        "src": "/images/cases/bora-encantar/02a-jornada-do-cliente.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "02b-cadastro",
+        "src": "/images/cases/bora-encantar/02b-cadastro.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "02c-tela-home",
+        "src": "/images/cases/bora-encantar/02c-tela-home.webp",
+        "width": 1152,
+        "height": 3900,
+        "kind": "raster"
+      },
+      {
+        "name": "03-passaporte",
+        "src": "/images/cases/bora-encantar/03-passaporte.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "04a-decolagem-1",
+        "src": "/images/cases/bora-encantar/04a-decolagem-1.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "04b-decolagem-2",
+        "src": "/images/cases/bora-encantar/04b-decolagem-2.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "04c-decolagem-3",
+        "src": "/images/cases/bora-encantar/04c-decolagem-3.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "04d-decolagem-4",
+        "src": "/images/cases/bora-encantar/04d-decolagem-4.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "05a-escala-1",
+        "src": "/images/cases/bora-encantar/05a-escala-1.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "05b-escala-2",
+        "src": "/images/cases/bora-encantar/05b-escala-2.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "05c-escala-3",
+        "src": "/images/cases/bora-encantar/05c-escala-3.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "05d-escala-4",
+        "src": "/images/cases/bora-encantar/05d-escala-4.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "05e-escala-5",
+        "src": "/images/cases/bora-encantar/05e-escala-5.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "05f-escala-6",
+        "src": "/images/cases/bora-encantar/05f-escala-6.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "06a-conexao-1",
+        "src": "/images/cases/bora-encantar/06a-conexao-1.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "06b-conexao-2",
+        "src": "/images/cases/bora-encantar/06b-conexao-2.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "06c-conexao-3",
+        "src": "/images/cases/bora-encantar/06c-conexao-3.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "06d-conexao-4",
+        "src": "/images/cases/bora-encantar/06d-conexao-4.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "06e-conexao-5",
+        "src": "/images/cases/bora-encantar/06e-conexao-5.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "07a-destino-1",
+        "src": "/images/cases/bora-encantar/07a-destino-1.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "07b-destino-2",
+        "src": "/images/cases/bora-encantar/07b-destino-2.webp",
+        "width": 1152,
+        "height": 1500,
+        "kind": "raster"
+      },
+      {
+        "name": "07c-destino-3",
+        "src": "/images/cases/bora-encantar/07c-destino-3.webp",
+        "width": 1152,
+        "height": 900,
+        "kind": "raster"
+      },
+      {
+        "name": "07d-destino-4",
+        "src": "/images/cases/bora-encantar/07d-destino-4.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "07e-destino-5",
+        "src": "/images/cases/bora-encantar/07e-destino-5.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "08a-bagagem-1",
+        "src": "/images/cases/bora-encantar/08a-bagagem-1.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "08b-bagagem-2",
+        "src": "/images/cases/bora-encantar/08b-bagagem-2.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "08c-bagagem-3",
+        "src": "/images/cases/bora-encantar/08c-bagagem-3.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      },
+      {
+        "name": "08d-bagagem-4",
+        "src": "/images/cases/bora-encantar/08d-bagagem-4.webp",
+        "width": 1152,
+        "height": 648,
+        "kind": "raster"
+      }
+    ],
+    "corridas": [
+      {
+        "name": "0-corridas-logo",
+        "src": "/images/cases/corridas/0-corridas-logo.svg",
+        "width": 465,
+        "height": 183,
+        "kind": "svg"
+      },
+      {
+        "name": "meias-colecionaveis",
+        "src": "/images/cases/corridas/meias-colecionaveis.webp",
+        "width": 1704,
+        "height": 1232,
+        "kind": "raster"
+      }
+    ],
+    "corridas/bota-pra-correr": [
+      {
+        "name": "0-bota-pra-correr-logo",
+        "src": "/images/cases/corridas/bota-pra-correr/0-bota-pra-correr-logo.svg",
+        "width": 234,
+        "height": 219,
+        "kind": "svg"
+      },
+      {
+        "name": "01-key-visual",
+        "src": "/images/cases/corridas/bota-pra-correr/01-key-visual.webp",
+        "width": 2400,
+        "height": 1349,
+        "kind": "raster"
+      },
+      {
+        "name": "02-estande",
+        "src": "/images/cases/corridas/bota-pra-correr/02-estande.webp",
+        "width": 2400,
+        "height": 1351,
+        "kind": "raster"
+      },
+      {
+        "name": "03-parede-estande",
+        "src": "/images/cases/corridas/bota-pra-correr/03-parede-estande.webp",
+        "width": 2400,
+        "height": 665,
+        "kind": "raster"
+      },
+      {
+        "name": "04-guarda-volumes",
+        "src": "/images/cases/corridas/bota-pra-correr/04-guarda-volumes.webp",
+        "width": 1620,
+        "height": 1409,
+        "kind": "raster"
+      },
+      {
+        "name": "05-totem-guarda-volumes",
+        "src": "/images/cases/corridas/bota-pra-correr/05-totem-guarda-volumes.webp",
+        "width": 714,
+        "height": 1376,
+        "kind": "raster"
+      },
+      {
+        "name": "06-instagramavel",
+        "src": "/images/cases/corridas/bota-pra-correr/06-instagramavel.webp",
+        "width": 2400,
+        "height": 1808,
+        "kind": "raster"
+      }
+    ],
+    "corridas/circuitinho-das-estacoes": [
+      {
+        "name": "0-circuitinho-das-estações-logo",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/0-circuitinho-das-estações-logo.svg",
+        "width": 461,
+        "height": 186,
+        "kind": "svg"
+      },
+      {
+        "name": "01-key-visual",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/01-key-visual.webp",
+        "width": 2400,
+        "height": 1353,
+        "kind": "raster"
+      },
+      {
+        "name": "02-estande",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/02-estande.webp",
+        "width": 2400,
+        "height": 1605,
+        "kind": "raster"
+      },
+      {
+        "name": "03-parede-estande",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/03-parede-estande.webp",
+        "width": 2400,
+        "height": 665,
+        "kind": "raster"
+      },
+      {
+        "name": "04-guarda-volumes",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/04-guarda-volumes.webp",
+        "width": 1620,
+        "height": 1409,
+        "kind": "raster"
+      },
+      {
+        "name": "05-totem-guarda-volumes",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/05-totem-guarda-volumes.webp",
+        "width": 720,
+        "height": 1382,
+        "kind": "raster"
+      },
+      {
+        "name": "06-totem-jogo-da-memoria",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/06-totem-jogo-da-memoria.webp",
+        "width": 730,
+        "height": 1404,
+        "kind": "raster"
+      },
+      {
+        "name": "07-jogo-da-memoria",
+        "src": "/images/cases/corridas/circuitinho-das-estacoes/07-jogo-da-memoria.webp",
+        "width": 1368,
+        "height": 1566,
+        "kind": "raster"
+      }
+    ],
+    "corridas/dog-race": [
+      {
+        "name": "0-dog-race-logo",
+        "src": "/images/cases/corridas/dog-race/0-dog-race-logo.svg",
+        "width": 234,
+        "height": 195,
+        "kind": "svg"
+      },
+      {
+        "name": "01-key-visual",
+        "src": "/images/cases/corridas/dog-race/01-key-visual.webp",
+        "width": 2400,
+        "height": 1353,
+        "kind": "raster"
+      },
+      {
+        "name": "02-estande",
+        "src": "/images/cases/corridas/dog-race/02-estande.webp",
+        "width": 2400,
+        "height": 1599,
+        "kind": "raster"
+      },
+      {
+        "name": "03-parede-estande",
+        "src": "/images/cases/corridas/dog-race/03-parede-estande.webp",
+        "width": 2400,
+        "height": 665,
+        "kind": "raster"
+      },
+      {
+        "name": "04-guarda-volumes",
+        "src": "/images/cases/corridas/dog-race/04-guarda-volumes.webp",
+        "width": 1620,
+        "height": 1409,
+        "kind": "raster"
+      },
+      {
+        "name": "06-instagramavel",
+        "src": "/images/cases/corridas/dog-race/06-instagramavel.webp",
+        "width": 2400,
+        "height": 1808,
+        "kind": "raster"
+      }
+    ],
+    "corridas/girl-power": [
+      {
+        "name": "0-girl-power-logo",
+        "src": "/images/cases/corridas/girl-power/0-girl-power-logo.svg",
+        "width": 275,
+        "height": 186,
+        "kind": "svg"
+      },
+      {
+        "name": "01-key-visual",
+        "src": "/images/cases/corridas/girl-power/01-key-visual.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "02-estande",
+        "src": "/images/cases/corridas/girl-power/02-estande.webp",
+        "width": 2400,
+        "height": 1599,
+        "kind": "raster"
+      },
+      {
+        "name": "03-parede-estande",
+        "src": "/images/cases/corridas/girl-power/03-parede-estande.webp",
+        "width": 2400,
+        "height": 663,
+        "kind": "raster"
+      }
+    ],
+    "dash": [
+      {
+        "name": "0-dash-logo",
+        "src": "/images/cases/dash/0-dash-logo.svg",
+        "width": 443,
+        "height": 230,
+        "kind": "svg"
+      },
+      {
+        "name": "01a-card-logo",
+        "src": "/images/cases/dash/01a-card-logo.webp",
+        "width": 1423,
+        "height": 921,
+        "kind": "raster"
+      },
+      {
+        "name": "01b-card-slogan",
+        "src": "/images/cases/dash/01b-card-slogan.webp",
+        "width": 1177,
+        "height": 912,
+        "kind": "raster"
+      },
+      {
+        "name": "01c-cards-paleta",
+        "src": "/images/cases/dash/01c-cards-paleta.webp",
+        "width": 893,
+        "height": 746,
+        "kind": "raster"
+      },
+      {
+        "name": "01d-card-moto",
+        "src": "/images/cases/dash/01d-card-moto.webp",
+        "width": 813,
+        "height": 707,
+        "kind": "raster"
+      },
+      {
+        "name": "01e-card-simbolo",
+        "src": "/images/cases/dash/01e-card-simbolo.svg",
+        "width": 302,
+        "height": 354,
+        "kind": "svg"
+      },
+      {
+        "name": "02a-tela-login",
+        "src": "/images/cases/dash/02a-tela-login.webp",
+        "width": 856,
+        "height": 1726,
+        "kind": "raster"
+      },
+      {
+        "name": "02b-tela-home",
+        "src": "/images/cases/dash/02b-tela-home.webp",
+        "width": 856,
+        "height": 1726,
+        "kind": "raster"
+      },
+      {
+        "name": "02c-tela-restaurante",
+        "src": "/images/cases/dash/02c-tela-restaurante.webp",
+        "width": 856,
+        "height": 1726,
+        "kind": "raster"
+      },
+      {
+        "name": "02d-tela-carrinho",
+        "src": "/images/cases/dash/02d-tela-carrinho.webp",
+        "width": 856,
+        "height": 1726,
+        "kind": "raster"
+      },
+      {
+        "name": "02e-tela-pedido",
+        "src": "/images/cases/dash/02e-tela-pedido.webp",
+        "width": 856,
+        "height": 1726,
+        "kind": "raster"
+      }
+    ],
+    "dia-das-criancas": [
+      {
+        "name": "0-logo",
+        "src": "/images/cases/dia-das-criancas/0-logo.svg",
+        "width": 564,
+        "height": 266,
+        "kind": "svg"
+      },
+      {
+        "name": "01-key-visual",
+        "src": "/images/cases/dia-das-criancas/01-key-visual.webp",
+        "width": 2400,
+        "height": 1351,
+        "kind": "raster"
+      },
+      {
+        "name": "02-nexo",
+        "src": "/images/cases/dia-das-criancas/02-nexo.svg",
+        "width": 234,
+        "height": 302,
+        "kind": "svg"
+      },
+      {
+        "name": "03-dado",
+        "src": "/images/cases/dia-das-criancas/03-dado.svg",
+        "width": 240,
+        "height": 302,
+        "kind": "svg"
+      },
+      {
+        "name": "04-nuc",
+        "src": "/images/cases/dia-das-criancas/04-nuc.svg",
+        "width": 236,
+        "height": 302,
+        "kind": "svg"
+      },
+      {
+        "name": "05-lumi",
+        "src": "/images/cases/dia-das-criancas/05-lumi.svg",
+        "width": 237,
+        "height": 302,
+        "kind": "svg"
+      },
+      {
+        "name": "06-verdinho",
+        "src": "/images/cases/dia-das-criancas/06-verdinho.svg",
+        "width": 233,
+        "height": 302,
+        "kind": "svg"
+      },
+      {
+        "name": "07-save-the-date",
+        "src": "/images/cases/dia-das-criancas/07-save-the-date.webp",
+        "width": 626,
+        "height": 1282,
+        "kind": "raster"
+      },
+      {
+        "name": "08-varal-dos-herois",
+        "src": "/images/cases/dia-das-criancas/08-varal-dos-herois.webp",
+        "width": 884,
+        "height": 1288,
+        "kind": "raster"
+      },
+      {
+        "name": "09-lama-de-boas-vindas",
+        "src": "/images/cases/dia-das-criancas/09-lama-de-boas-vindas.webp",
+        "width": 454,
+        "height": 1304,
+        "kind": "raster"
+      },
+      {
+        "name": "10-amarelinha",
+        "src": "/images/cases/dia-das-criancas/10-amarelinha.webp",
+        "width": 348,
+        "height": 1438,
+        "kind": "raster"
+      },
+      {
+        "name": "11-backdrop-para-fotos",
+        "src": "/images/cases/dia-das-criancas/11-backdrop-para-fotos.webp",
+        "width": 1604,
+        "height": 1720,
+        "kind": "raster"
+      },
+      {
+        "name": "12-fantoche-de-dedo",
+        "src": "/images/cases/dia-das-criancas/12-fantoche-de-dedo.webp",
+        "width": 1532,
+        "height": 656,
+        "kind": "raster"
+      },
+      {
+        "name": "13-mascara-e-capa-oficina",
+        "src": "/images/cases/dia-das-criancas/13-mascara-e-capa-oficina.webp",
+        "width": 2212,
+        "height": 1518,
+        "kind": "raster"
+      },
+      {
+        "name": "14-copo-para-colorir",
+        "src": "/images/cases/dia-das-criancas/14-copo-para-colorir.webp",
+        "width": 442,
+        "height": 812,
+        "kind": "raster"
+      },
+      {
+        "name": "15-pipoca",
+        "src": "/images/cases/dia-das-criancas/15-pipoca.webp",
+        "width": 894,
+        "height": 880,
+        "kind": "raster"
+      },
+      {
+        "name": "16-pao-de-mel",
+        "src": "/images/cases/dia-das-criancas/16-pao-de-mel.webp",
+        "width": 614,
+        "height": 812,
+        "kind": "raster"
+      },
+      {
+        "name": "17-pacotinhos-album",
+        "src": "/images/cases/dia-das-criancas/17-pacotinhos-album.webp",
+        "width": 766,
+        "height": 482,
+        "kind": "raster"
+      },
+      {
+        "name": "18-album-de-figurinhas",
+        "src": "/images/cases/dia-das-criancas/18-album-de-figurinhas.webp",
+        "width": 1750,
+        "height": 1326,
+        "kind": "raster"
+      },
+      {
+        "name": "19-quebra-cabeca",
+        "src": "/images/cases/dia-das-criancas/19-quebra-cabeca.webp",
+        "width": 1364,
+        "height": 762,
+        "kind": "raster"
+      },
+      {
+        "name": "20-caderno-de-atividades",
+        "src": "/images/cases/dia-das-criancas/20-caderno-de-atividades.webp",
+        "width": 710,
+        "height": 950,
+        "kind": "raster"
+      },
+      {
+        "name": "21-historia-em-quadrinhos",
+        "src": "/images/cases/dia-das-criancas/21-historia-em-quadrinhos.webp",
+        "width": 1740,
+        "height": 1320,
+        "kind": "raster"
+      }
+    ],
+    "formula-1": [
+      {
+        "name": "0-claro-empresas-logo",
+        "src": "/images/cases/formula-1/0-claro-empresas-logo.svg",
+        "width": 267,
+        "height": 44,
+        "kind": "svg"
+      },
+      {
+        "name": "0-formula1-logo",
+        "src": "/images/cases/formula-1/0-formula1-logo.svg",
+        "width": 921,
+        "height": 132,
+        "kind": "svg"
+      },
+      {
+        "name": "01a-key-visual-1",
+        "src": "/images/cases/formula-1/01a-key-visual-1.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "01b-key-visual-2",
+        "src": "/images/cases/formula-1/01b-key-visual-2.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "01c-key-visual-3",
+        "src": "/images/cases/formula-1/01c-key-visual-3.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "01d-key-visual-4",
+        "src": "/images/cases/formula-1/01d-key-visual-4.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "02a-convite",
+        "src": "/images/cases/formula-1/02a-convite.webp",
+        "width": 658,
+        "height": 2053,
+        "kind": "raster"
+      },
+      {
+        "name": "02b-reminder",
+        "src": "/images/cases/formula-1/02b-reminder.webp",
+        "width": 792,
+        "height": 2053,
+        "kind": "raster"
+      },
+      {
+        "name": "02c-agradecimento",
+        "src": "/images/cases/formula-1/02c-agradecimento.webp",
+        "width": 868,
+        "height": 2053,
+        "kind": "raster"
+      },
+      {
+        "name": "03a-home",
+        "src": "/images/cases/formula-1/03a-home.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "03b-interlagos",
+        "src": "/images/cases/formula-1/03b-interlagos.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "03c-etapas",
+        "src": "/images/cases/formula-1/03c-etapas.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "03d-meeting-point",
+        "src": "/images/cases/formula-1/03d-meeting-point.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "03e-programacao",
+        "src": "/images/cases/formula-1/03e-programacao.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "03f-classificacao-etaria",
+        "src": "/images/cases/formula-1/03f-classificacao-etaria.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "03g-dicas",
+        "src": "/images/cases/formula-1/03g-dicas.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "03h-fotos",
+        "src": "/images/cases/formula-1/03h-fotos.webp",
+        "width": 1185,
+        "height": 667,
+        "kind": "raster"
+      },
+      {
+        "name": "04a-instagramavel-1",
+        "src": "/images/cases/formula-1/04a-instagramavel-1.webp",
+        "width": 2400,
+        "height": 1607,
+        "kind": "raster"
+      },
+      {
+        "name": "04b-instagramavel-2",
+        "src": "/images/cases/formula-1/04b-instagramavel-2.webp",
+        "width": 2400,
+        "height": 1562,
+        "kind": "raster"
+      },
+      {
+        "name": "05a-totem-sinalizacao-1",
+        "src": "/images/cases/formula-1/05a-totem-sinalizacao-1.webp",
+        "width": 720,
+        "height": 1466,
+        "kind": "raster"
+      },
+      {
+        "name": "05b-totem-sinalizacao-2",
+        "src": "/images/cases/formula-1/05b-totem-sinalizacao-2.webp",
+        "width": 720,
+        "height": 1466,
+        "kind": "raster"
+      },
+      {
+        "name": "05c-totem-sinalizacao-3",
+        "src": "/images/cases/formula-1/05c-totem-sinalizacao-3.webp",
+        "width": 720,
+        "height": 1466,
+        "kind": "raster"
+      },
+      {
+        "name": "06a-jaqueta",
+        "src": "/images/cases/formula-1/06a-jaqueta.webp",
+        "width": 814,
+        "height": 934,
+        "kind": "raster"
+      },
+      {
+        "name": "06b-camiseta",
+        "src": "/images/cases/formula-1/06b-camiseta.webp",
+        "width": 890,
+        "height": 884,
+        "kind": "raster"
+      },
+      {
+        "name": "06c-bone",
+        "src": "/images/cases/formula-1/06c-bone.webp",
+        "width": 698,
+        "height": 498,
+        "kind": "raster"
+      },
+      {
+        "name": "07a-agenda-completa",
+        "src": "/images/cases/formula-1/07a-agenda-completa.webp",
+        "width": 1008,
+        "height": 1426,
+        "kind": "raster"
+      },
+      {
+        "name": "07b-agenda-reduzida",
+        "src": "/images/cases/formula-1/07b-agenda-reduzida.webp",
+        "width": 1008,
+        "height": 1426,
+        "kind": "raster"
+      },
+      {
+        "name": "08-prisma-de-mesa",
+        "src": "/images/cases/formula-1/08-prisma-de-mesa.webp",
+        "width": 1996,
+        "height": 1244,
+        "kind": "raster"
+      }
+    ],
+    "kick-off": [
+      {
+        "name": "0-kickoff-logo",
+        "src": "/images/cases/kick-off/0-kickoff-logo.svg",
+        "width": 600,
+        "height": 131,
+        "kind": "svg"
+      },
+      {
+        "name": "0b-claro-empresas-logo",
+        "src": "/images/cases/kick-off/0b-claro-empresas-logo.svg",
+        "width": 268,
+        "height": 44,
+        "kind": "svg"
+      },
+      {
+        "name": "02-key-visual",
+        "src": "/images/cases/kick-off/02-key-visual.webp",
+        "width": 2400,
+        "height": 1352,
+        "kind": "raster"
+      },
+      {
+        "name": "03-save-the-date",
+        "src": "/images/cases/kick-off/03-save-the-date.webp",
+        "width": 660,
+        "height": 1344,
+        "kind": "raster"
+      },
+      {
+        "name": "04a-balcao",
+        "src": "/images/cases/kick-off/04a-balcao.webp",
+        "width": 1480,
+        "height": 666,
+        "kind": "raster"
+      },
+      {
+        "name": "04b-credenciamento",
+        "src": "/images/cases/kick-off/04b-credenciamento.webp",
+        "width": 1500,
+        "height": 1228,
+        "kind": "raster"
+      },
+      {
+        "name": "04c-sinalizacao",
+        "src": "/images/cases/kick-off/04c-sinalizacao.webp",
+        "width": 478,
+        "height": 2064,
+        "kind": "raster"
+      },
+      {
+        "name": "05-plenaria",
+        "src": "/images/cases/kick-off/05-plenaria.webp",
+        "width": 2400,
+        "height": 1600,
+        "kind": "raster"
+      },
+      {
+        "name": "06-gift-in",
+        "src": "/images/cases/kick-off/06-gift-in.webp",
+        "width": 1862,
+        "height": 1510,
+        "kind": "raster"
+      }
+    ],
+    "pasta-mania": [
+      {
+        "name": "0-pasta-mania-logo",
+        "src": "/images/cases/pasta-mania/0-pasta-mania-logo.svg",
+        "width": 638,
+        "height": 87,
+        "kind": "svg"
+      },
+      {
+        "name": "01a-card-simbolo",
+        "src": "/images/cases/pasta-mania/01a-card-simbolo.svg",
+        "width": 478,
+        "height": 455,
+        "kind": "svg"
+      },
+      {
+        "name": "01b-card-logo",
+        "src": "/images/cases/pasta-mania/01b-card-logo.svg",
+        "width": 614,
+        "height": 455,
+        "kind": "svg"
+      },
+      {
+        "name": "01c-card-slogan",
+        "src": "/images/cases/pasta-mania/01c-card-slogan.svg",
+        "width": 302,
+        "height": 354,
+        "kind": "svg"
+      },
+      {
+        "name": "01d-card-textura",
+        "src": "/images/cases/pasta-mania/01d-card-textura.svg",
+        "width": 407,
+        "height": 354,
+        "kind": "svg"
+      },
+      {
+        "name": "01e-cards-paleta",
+        "src": "/images/cases/pasta-mania/01e-cards-paleta.svg",
+        "width": 357,
+        "height": 355,
+        "kind": "svg"
+      },
+      {
+        "name": "02a-logo-azul",
+        "src": "/images/cases/pasta-mania/02a-logo-azul.svg",
+        "width": 625,
+        "height": 122,
+        "kind": "svg"
+      },
+      {
+        "name": "02b-logo-branco",
+        "src": "/images/cases/pasta-mania/02b-logo-branco.svg",
+        "width": 626,
+        "height": 123,
+        "kind": "svg"
+      },
+      {
+        "name": "02c-logo-amarelo",
+        "src": "/images/cases/pasta-mania/02c-logo-amarelo.svg",
+        "width": 625,
+        "height": 122,
+        "kind": "svg"
+      },
+      {
+        "name": "02d-logo-laranja",
+        "src": "/images/cases/pasta-mania/02d-logo-laranja.svg",
+        "width": 625,
+        "height": 122,
+        "kind": "svg"
+      },
+      {
+        "name": "02e-simbolo-azul",
+        "src": "/images/cases/pasta-mania/02e-simbolo-azul.svg",
+        "width": 202,
+        "height": 272,
+        "kind": "svg"
+      },
+      {
+        "name": "02f-simbolo-branco",
+        "src": "/images/cases/pasta-mania/02f-simbolo-branco.svg",
+        "width": 203,
+        "height": 273,
+        "kind": "svg"
+      },
+      {
+        "name": "02g-simbolo-amarelo",
+        "src": "/images/cases/pasta-mania/02g-simbolo-amarelo.svg",
+        "width": 202,
+        "height": 272,
+        "kind": "svg"
+      },
+      {
+        "name": "02h-simbolo-laranja",
+        "src": "/images/cases/pasta-mania/02h-simbolo-laranja.svg",
+        "width": 202,
+        "height": 272,
+        "kind": "svg"
+      },
+      {
+        "name": "03-foto-massa-concha",
+        "src": "/images/cases/pasta-mania/03-foto-massa-concha.webp",
+        "width": 2400,
+        "height": 1132,
+        "kind": "raster"
+      },
+      {
+        "name": "04-embalagens",
+        "src": "/images/cases/pasta-mania/04-embalagens.webp",
+        "width": 2400,
+        "height": 1545,
+        "kind": "raster"
+      },
+      {
+        "name": "05-outdoor",
+        "src": "/images/cases/pasta-mania/05-outdoor.webp",
+        "width": 2400,
+        "height": 1126,
+        "kind": "raster"
+      },
+      {
+        "name": "06-avental-cardapio",
+        "src": "/images/cases/pasta-mania/06-avental-cardapio.webp",
+        "width": 2400,
+        "height": 1459,
+        "kind": "raster"
+      },
+      {
+        "name": "07-foto-penne",
+        "src": "/images/cases/pasta-mania/07-foto-penne.webp",
+        "width": 2400,
+        "height": 1508,
+        "kind": "raster"
+      },
+      {
+        "name": "08-posts-instagram",
+        "src": "/images/cases/pasta-mania/08-posts-instagram.webp",
+        "width": 2400,
+        "height": 1918,
+        "kind": "raster"
+      },
+      {
+        "name": "09a-story-lista",
+        "src": "/images/cases/pasta-mania/09a-story-lista.webp",
+        "width": 678,
+        "height": 1203,
+        "kind": "raster"
+      },
+      {
+        "name": "09b-story-chef",
+        "src": "/images/cases/pasta-mania/09b-story-chef.webp",
+        "width": 678,
+        "height": 1203,
+        "kind": "raster"
+      },
+      {
+        "name": "09c-story-enquete",
+        "src": "/images/cases/pasta-mania/09c-story-enquete.webp",
+        "width": 678,
+        "height": 1203,
+        "kind": "raster"
+      }
+    ],
+    "vibracoes-urbanas": [
+      {
+        "name": "0-capa",
+        "src": "/images/cases/vibracoes-urbanas/0-capa.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "01-pagina-1",
+        "src": "/images/cases/vibracoes-urbanas/01-pagina-1.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "02-introducao",
+        "src": "/images/cases/vibracoes-urbanas/02-introducao.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "03-justificativa",
+        "src": "/images/cases/vibracoes-urbanas/03-justificativa.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "04-objetivo",
+        "src": "/images/cases/vibracoes-urbanas/04-objetivo.webp",
+        "width": 2400,
+        "height": 1367,
+        "kind": "raster"
+      },
+      {
+        "name": "05-capa-identidade-visual",
+        "src": "/images/cases/vibracoes-urbanas/05-capa-identidade-visual.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "06-tipografia",
+        "src": "/images/cases/vibracoes-urbanas/06-tipografia.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "07-poster",
+        "src": "/images/cases/vibracoes-urbanas/07-poster.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "08-pagina-8",
+        "src": "/images/cases/vibracoes-urbanas/08-pagina-8.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "09-cores",
+        "src": "/images/cases/vibracoes-urbanas/09-cores.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "10-simbologia",
+        "src": "/images/cases/vibracoes-urbanas/10-simbologia.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "11-grids-e-layouts",
+        "src": "/images/cases/vibracoes-urbanas/11-grids-e-layouts.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "12-pagina-12",
+        "src": "/images/cases/vibracoes-urbanas/12-pagina-12.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "13-mockup-1",
+        "src": "/images/cases/vibracoes-urbanas/13-mockup-1.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "14-mockup-2",
+        "src": "/images/cases/vibracoes-urbanas/14-mockup-2.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "15-mockup-3",
+        "src": "/images/cases/vibracoes-urbanas/15-mockup-3.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "16-mockup-4",
+        "src": "/images/cases/vibracoes-urbanas/16-mockup-4.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "17-mockup-5",
+        "src": "/images/cases/vibracoes-urbanas/17-mockup-5.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "18-mockup-6",
+        "src": "/images/cases/vibracoes-urbanas/18-mockup-6.webp",
+        "width": 2400,
+        "height": 1362,
+        "kind": "raster"
+      },
+      {
+        "name": "19-mockup-7",
+        "src": "/images/cases/vibracoes-urbanas/19-mockup-7.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "20-mockup-8",
+        "src": "/images/cases/vibracoes-urbanas/20-mockup-8.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "21-mockup-9",
+        "src": "/images/cases/vibracoes-urbanas/21-mockup-9.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "22-mockup-10",
+        "src": "/images/cases/vibracoes-urbanas/22-mockup-10.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "23-revista-completa",
+        "src": "/images/cases/vibracoes-urbanas/23-revista-completa.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      }
+    ],
+    "volta-as-aulas": [
+      {
+        "name": "0-pravaler-logo",
+        "src": "/images/cases/volta-as-aulas/0-pravaler-logo.webp",
+        "width": 380,
+        "height": 140,
+        "kind": "raster"
+      },
+      {
+        "name": "01-key-visual",
+        "src": "/images/cases/volta-as-aulas/01-key-visual.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "02-title-decoration",
+        "src": "/images/cases/volta-as-aulas/02-title-decoration.svg",
+        "width": 482,
+        "height": 214,
+        "kind": "svg"
+      },
+      {
+        "name": "02a-estande-1",
+        "src": "/images/cases/volta-as-aulas/02a-estande-1.webp",
+        "width": 2400,
+        "height": 1350,
+        "kind": "raster"
+      },
+      {
+        "name": "02b-estande-2",
+        "src": "/images/cases/volta-as-aulas/02b-estande-2.webp",
+        "width": 2400,
+        "height": 1349,
+        "kind": "raster"
+      },
+      {
+        "name": "02c-estande-3",
+        "src": "/images/cases/volta-as-aulas/02c-estande-3.webp",
+        "width": 2400,
+        "height": 1349,
+        "kind": "raster"
+      },
+      {
+        "name": "03a-adesivos",
+        "src": "/images/cases/volta-as-aulas/03a-adesivos.webp",
+        "width": 756,
+        "height": 662,
+        "kind": "raster"
+      },
+      {
+        "name": "03b-bone",
+        "src": "/images/cases/volta-as-aulas/03b-bone.webp",
+        "width": 532,
+        "height": 520,
+        "kind": "raster"
+      },
+      {
+        "name": "03c-cordao-cracha",
+        "src": "/images/cases/volta-as-aulas/03c-cordao-cracha.webp",
+        "width": 836,
+        "height": 640,
+        "kind": "raster"
+      }
+    ]
+  },
+  "home": {
+    "conjunto-estrelas-1": {
+      "name": "conjunto-estrelas-1",
+      "src": "/images/home/conjunto-estrelas-1.svg",
+      "width": 239,
+      "height": 443,
+      "kind": "svg"
+    },
+    "conjunto-estrelas-2": {
+      "name": "conjunto-estrelas-2",
+      "src": "/images/home/conjunto-estrelas-2.svg",
+      "width": 245,
+      "height": 487,
+      "kind": "svg"
+    },
+    "email": {
+      "name": "email",
+      "src": "/images/home/email.svg",
+      "width": 23,
+      "height": 16,
+      "kind": "svg"
+    },
+    "estrela-limao": {
+      "name": "estrela-limao",
+      "src": "/images/home/estrela-limao.svg",
+      "width": 54,
+      "height": 52,
+      "kind": "svg"
+    },
+    "estrela-rosa": {
+      "name": "estrela-rosa",
+      "src": "/images/home/estrela-rosa.svg",
+      "width": 54,
+      "height": 52,
+      "kind": "svg"
+    },
+    "estrela-vinho": {
+      "name": "estrela-vinho",
+      "src": "/images/home/estrela-vinho.svg",
+      "width": 103,
+      "height": 107,
+      "kind": "svg"
+    },
+    "linkedin": {
+      "name": "linkedin",
+      "src": "/images/home/linkedin.svg",
+      "width": 20,
+      "height": 21,
+      "kind": "svg"
+    },
+    "papel": {
+      "name": "papel",
+      "src": "/images/home/papel.svg",
+      "width": 1775,
+      "height": 918,
+      "kind": "svg"
+    },
+    "seta": {
+      "name": "seta",
+      "src": "/images/home/seta.svg",
+      "width": 102,
+      "height": 35,
+      "kind": "svg"
+    },
+    "telefone": {
+      "name": "telefone",
+      "src": "/images/home/telefone.svg",
+      "width": 20,
+      "height": 20,
+      "kind": "svg"
+    },
+    "seta-esquerda": {
+      "name": "seta-esquerda",
+      "src": "/images/ui/seta-esquerda.svg",
+      "width": 28,
+      "height": 48,
+      "kind": "svg"
+    }
+  }
+}
