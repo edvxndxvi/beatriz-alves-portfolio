@@ -1,0 +1,10 @@
+# build e dependências
+.next
+out
+node_modules
+
+# arquivos gerados / pesados
+public/images
+assets-raw
+src/data/images.generated.json
+package-lock.json

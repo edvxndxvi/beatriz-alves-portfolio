@@ -5,11 +5,11 @@
  * TODO: confirmar valores exatos e fontes com a Bia.
  */
 @theme {
-  --color-vinho: #5F051C;
-  --color-creme: #FFFFF0;
-  --color-creme-listra: #F9F5E8;
-  --color-limao: #EDF7B7;
-  --color-rosa: #FFE9F1;
+  --color-vinho: #5f051c;
+  --color-creme: #fffff0;
+  --color-creme-listra: #f9f5e8;
+  --color-limao: #edf7b7;
+  --color-rosa: #ffe9f1;
 
   /* Fontes: placeholders até a Bia confirmar quais foram usadas */
   --font-display: var(--font-display-placeholder), system-ui, sans-serif;
