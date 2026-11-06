@@ -24,7 +24,9 @@ const naturalSort = (a, b) => a.localeCompare(b, "pt-BR", { numeric: true });
 
 async function walk(dir) {
   const out = [];
-  for (const entry of (await readdir(dir, { withFileTypes: true })).sort((a, b) => naturalSort(a.name, b.name))) {
+  for (const entry of (await readdir(dir, { withFileTypes: true })).sort(
+    (a, b) => naturalSort(a.name, b.name),
+  )) {
     const p = join(dir, entry.name);
     if (entry.isDirectory()) out.push(...(await walk(p)));
     else out.push(p);
@@ -51,7 +53,13 @@ async function processFile(file, destDirAbs, publicPrefix) {
     const dest = join(destDirAbs, `${name}.svg`);
     if (!(await isFresh(file, dest))) await copyFile(file, dest);
     const m = await sharp(dest).metadata();
-    return { name, src: `${publicPrefix}/${name}.svg`, width: m.width, height: m.height, kind: "svg" };
+    return {
+      name,
+      src: `${publicPrefix}/${name}.svg`,
+      width: m.width,
+      height: m.height,
+      kind: "svg",
+    };
   }
 
   if (!["jpg", "jpeg", "png"].includes(e)) return null;
@@ -64,7 +72,13 @@ async function processFile(file, destDirAbs, publicPrefix) {
       .toFile(dest);
   }
   const m = await sharp(dest).metadata();
-  return { name, src: `${publicPrefix}/${name}.webp`, width: m.width, height: m.height, kind: "raster" };
+  return {
+    name,
+    src: `${publicPrefix}/${name}.webp`,
+    width: m.width,
+    height: m.height,
+    kind: "raster",
+  };
 }
 
 const manifest = { cases: {}, home: {} };
@@ -76,7 +90,11 @@ for (const file of await walk(casesRaw)) {
   const rel = relative(casesRaw, file).split(sep); // [slug, (secao,) arquivo]
   const group = rel.slice(0, -1).join("/"); // "dash" ou "corridas/dog-race"
   if (!group) continue;
-  const item = await processFile(file, join(OUT, "cases", ...rel.slice(0, -1)), `/images/cases/${group}`);
+  const item = await processFile(
+    file,
+    join(OUT, "cases", ...rel.slice(0, -1)),
+    `/images/cases/${group}`,
+  );
   if (!item) continue;
   (manifest.cases[group] ??= []).push(item);
   count++;
@@ -93,7 +111,11 @@ for (const file of await walk(homeRaw)) {
 
 // ---- ui ----
 try {
-  const item = await processFile(join(RAW, "seta-esquerda.svg"), join(OUT, "ui"), "/images/ui");
+  const item = await processFile(
+    join(RAW, "seta-esquerda.svg"),
+    join(OUT, "ui"),
+    "/images/ui",
+  );
   if (item) {
     manifest.home[item.name] = item;
     count++;
@@ -102,7 +124,10 @@ try {
   /* opcional */
 }
 
-for (const g of Object.keys(manifest.cases)) manifest.cases[g].sort((a, b) => naturalSort(a.name, b.name));
+for (const g of Object.keys(manifest.cases))
+  manifest.cases[g].sort((a, b) => naturalSort(a.name, b.name));
 await mkdir(join(ROOT, "src", "data"), { recursive: true });
 await writeFile(MANIFEST, JSON.stringify(manifest, null, 2) + "\n");
-console.log(`${count} arquivos processados em ${Object.keys(manifest.cases).length} grupos de cases.`);
+console.log(
+  `${count} arquivos processados em ${Object.keys(manifest.cases).length} grupos de cases.`,
+);
