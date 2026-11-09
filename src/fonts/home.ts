@@ -1,12 +1,14 @@
-import { Gaegu, Krona_One, Poppins } from "next/font/google";
+import { Krona_One, Poppins } from "next/font/google";
+import localFont from "next/font/local";
 
 /**
  * Fontes da home. Cada uma expõe uma variável CSS (--nf-*) que o Tailwind usa em
  * `font-sans`, `font-salted` e `font-gunter` (ver globals.css).
  *
- * TODO(licença): Salted e Gunter são fontes comerciais e ainda não estão licenciadas.
- * Os valores abaixo são SUBSTITUTAS livres do Google Fonts. Quando houver licença, troque
- * por `next/font/local` apontando para o arquivo, mantendo o mesmo `variable`.
+ * Salted: arquivo local licenciado (src/fonts/files).
+ * TODO(licença): Gunter é comercial e ainda não está licenciada; o valor abaixo é uma
+ * SUBSTITUTA livre do Google Fonts. Quando houver licença, troque por `next/font/local`,
+ * mantendo o mesmo `variable`.
  */
 
 // Texto corrido (Poppins Light) — livre (OFL)
@@ -17,10 +19,10 @@ export const poppins = Poppins({
   variable: "--nf-poppins",
 });
 
-// Placeholder da Salted 400 (manuscrita em caixa alta: títulos, rótulos, contatos)
-export const salted = Gaegu({
+// Salted 400 (manuscrita em caixa alta: títulos, rótulos, contatos)
+export const salted = localFont({
+  src: "./files/salted-regular.otf",
   weight: "400",
-  subsets: ["latin"],
   display: "swap",
   variable: "--nf-salted",
 });
