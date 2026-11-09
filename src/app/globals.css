@@ -11,6 +11,10 @@
   --color-dash-laranja: #e26540;
   --color-dash-creme: #f7f0eb;
 
+  /* Paleta do case Ação de Visibilidade (cores da logo da Rede Américas) */
+  --color-rede-roxo: #6d2077;
+  --color-rede-lilas: #d9b4d5;
+
   --breakpoint-desktop: 1920px;
   /*
    * Animação da faixa (Marquee), usada só abaixo de 1280px.
@@ -30,6 +34,7 @@
   --font-salted: var(--nf-salted), cursive;
   --font-gunter: var(--nf-gunter), system-ui, sans-serif;
   --font-montserrat: var(--nf-montserrat), system-ui, sans-serif;
+  --font-inter: var(--nf-inter), system-ui, sans-serif;
 }
 
 /*

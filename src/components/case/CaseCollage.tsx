@@ -11,6 +11,11 @@ export type CollageItem = {
   y: number;
   /** Largura no desenho = largura do arquivo × scale (2x exportado → 0.5). Padrão 1. */
   scale?: number;
+  /**
+   * Só no `mobile="stack"`: largura da imagem em % da coluna. Padrão 100. Serve para peças com
+   * margem transparente (ou muito altas) não ficarem desproporcionais às outras.
+   */
+  mobileWidth?: number;
 };
 
 /**
@@ -68,6 +73,7 @@ export default function CaseCollage({
                 "--x": `calc(${item.x}*var(--u))`,
                 "--y": `calc(${item.y}*var(--u))`,
                 "--w": `calc(${w}*var(--u))`,
+                "--mw": `${item.mobileWidth ?? 100}%`,
                 "--px": `${(item.x / width) * 100}%`,
                 "--py": `${(item.y / height) * 100}%`,
                 "--pw": `${(w / width) * 100}%`,
@@ -76,7 +82,7 @@ export default function CaseCollage({
             className={
               scale
                 ? "absolute top-(--py) left-(--px) h-auto w-(--pw)"
-                : "h-auto w-full lg:absolute lg:top-(--y) lg:left-(--x) lg:w-(--w)"
+                : "h-auto w-(--mw) max-w-none lg:absolute lg:top-(--y) lg:left-(--x) lg:w-(--w)"
             }
           />
         );
