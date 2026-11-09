@@ -1465,10 +1465,10 @@
     ],
     "volta-as-aulas": [
       {
-        "name": "0-pravaler-logo",
-        "src": "/images/cases/volta-as-aulas/0-pravaler-logo.webp",
-        "width": 380,
-        "height": 140,
+        "name": "0-volta-as-aulas-pravaler-logo",
+        "src": "/images/cases/volta-as-aulas/0-volta-as-aulas-pravaler-logo.webp",
+        "width": 1524,
+        "height": 480,
         "kind": "raster"
       },
       {
@@ -1525,6 +1525,13 @@
         "src": "/images/cases/volta-as-aulas/03c-cordao-cracha.webp",
         "width": 836,
         "height": 640,
+        "kind": "raster"
+      },
+      {
+        "name": "aspas",
+        "src": "/images/cases/volta-as-aulas/aspas.webp",
+        "width": 246,
+        "height": 196,
         "kind": "raster"
       }
     ]
