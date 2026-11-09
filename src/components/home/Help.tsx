@@ -47,9 +47,9 @@ export default function Help() {
         <Image
           src="/images/home/estrela-vinho.svg"
           alt=""
-          width={103}
-          height={107}
-          className="absolute top-0 left-3 z-10 w-10 -translate-y-1/2 md:left-6 md:w-14 xl:top-[21%] xl:left-[7%] xl:w-[5.8%] xl:translate-y-0"
+          width={107}
+          height={102}
+          className="absolute top-0 left-3 z-10 h-auto w-10-translate-y-1/2 md:left-6 md:w-14 xl:top-[21%] xl:left-[7%] xl:w-[5.8%] xl:translate-y-0"
         />
 
         {/* Post-it rosa: título */}
@@ -79,9 +79,9 @@ export default function Help() {
         <Image
           src="/images/home/estrela-vinho.svg"
           alt=""
-          width={103}
-          height={107}
-          className="absolute right-3 bottom-0 z-10 w-10 translate-y-1/2 rotate-15 md:right-6 md:w-14 xl:bottom-[12%] xl:left-[90%] xl:w-[5.8%] xl:translate-y-0"
+          width={107}
+          height={102}
+          className="absolute right-3 bottom-0 z-10 h-auto w-10translate-y-1/2 rotate-15 md:right-6 md:w-14 xl:bottom-[12%] xl:left-[90%] xl:w-[5.8%] xl:translate-y-0"
         />
       </div>
     </section>
