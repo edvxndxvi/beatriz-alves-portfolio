@@ -5,7 +5,7 @@
  */
 
 export const intro = {
-  title: "Oi, eu sou a Beatriz!",
+  title: "oi, eu sou a beatriz!",
   paragraphs: [
     "Designer gráfica e diretora de arte apaixonada por criar, explorar a criatividade e dar vida às peças que a gente imagina. Sou bacharel em Design pela Universidade São Judas Tadeu e estou concluindo uma pós-graduação em Criação de Identidade Visual.",
     "No dia a dia, desenvolvo conceitos visuais e layouts, adaptando materiais para diferentes formatos e canais (digital e impresso), monto moodboards pra ajudar a construir cenários e ambientações, além de organizar arquivo final, revisar antes de mandar pra produção.",

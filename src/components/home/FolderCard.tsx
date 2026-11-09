@@ -49,7 +49,7 @@ export default function FolderCard({
         <span className="text-limao block text-[max(13px,calc(15*var(--u)))] tracking-wide">
           {item.client}
         </span>
-        <span className="block text-[max(26px,calc(34*var(--u)))] leading-tight">
+        <span className="block text-[max(26px,calc(34*var(--u)))] leading-tight text-rosa">
           {item.title}
         </span>
       </div>
