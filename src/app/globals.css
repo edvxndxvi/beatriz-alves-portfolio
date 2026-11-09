@@ -15,6 +15,9 @@
   --color-rede-roxo: #6d2077;
   --color-rede-lilas: #d9b4d5;
 
+  /* Laranja do case Volta às Aulas (Pravaler) */
+  --color-pravaler: #e75f29;
+
   --breakpoint-desktop: 1920px;
   /*
    * Animação da faixa (Marquee), usada só abaixo de 1280px.
@@ -34,6 +37,7 @@
   --font-salted: var(--nf-salted), cursive;
   --font-gunter: var(--nf-gunter), system-ui, sans-serif;
   --font-montserrat: var(--nf-montserrat), system-ui, sans-serif;
+  --font-impact: Impact, Haettenschweiler, var(--nf-anton), sans-serif;
   --font-inter: var(--nf-inter), system-ui, sans-serif;
 }
 
@@ -43,6 +47,19 @@
  */
 :root {
   --u: min(1px, 0.052083vw);
+}
+
+/*
+ * Unidade local de um bloco de largura --ref (px do desenho): abaixo de lg o bloco encolhe para
+ * caber na coluna (até 28rem); em lg+ vale a unidade global.
+ */
+.unidade-local {
+  --u: calc(min(100vw - 2.5rem, 28rem) / var(--ref));
+}
+@media (min-width: 64rem) {
+  .unidade-local {
+    --u: min(1px, 0.052083vw);
+  }
 }
 
 body {
