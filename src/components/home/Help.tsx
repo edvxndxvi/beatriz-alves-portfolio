@@ -6,7 +6,9 @@ type Service = (typeof services)[number];
 function ServiceItem({ service }: { service: Service }) {
   return (
     <li className="space-y-2 text-center">
-      <h3 className="font-salted text-[max(17px,calc(22*var(--u)))] leading-tight uppercase">
+      <h3
+        className={`font-salted text-[max(17px,calc(22*var(--u)))] leading-tight uppercase ${service.number === "01" || service.number === "02" ? "text-limao" : ""}`}
+      >
         {service.number}. {service.title}
       </h3>
       <p className="text-[max(14px,calc(18*var(--u)))] leading-snug font-light">
@@ -63,7 +65,7 @@ export default function Help() {
         </div>
 
         {/* Post-it vinho: serviços 01 e 02 */}
-        <ul className="postit bg-vinho text-creme flex rotate-1 flex-col justify-center gap-6 p-6 md:p-7 xl:absolute xl:top-[24.5%] xl:left-[36.5%] xl:h-[64%] xl:w-[27%] xl:rotate-[5.5deg] xl:gap-[4%] xl:p-[2%]">
+        <ul className="postit bg-vinho text-white flex rotate-1 flex-col justify-center gap-6 p-6 md:p-7 xl:absolute xl:top-[24.5%] xl:left-[36.5%] xl:h-[64%] xl:w-[27%] xl:rotate-[5.5deg] xl:gap-[4%] xl:p-[2%]">
           <ServiceItem service={first} />
           <ServiceItem service={second} />
         </ul>
