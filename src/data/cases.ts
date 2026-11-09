@@ -69,7 +69,7 @@ export const cases: Case[] = [
     slug: "formula-1",
     figmaNodeId: "154:3366",
     client: "Claro Empresas",
-    title: "Fórmula 1",
+    title: "Formula 1",
   },
   {
     slug: "vibracoes-urbanas",

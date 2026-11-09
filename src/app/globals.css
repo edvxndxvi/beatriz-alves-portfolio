@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-/*
- * Tokens de design. Cores APROXIMADAS (amostradas visualmente do Figma, que não tem variáveis).
- * TODO: confirmar valores exatos e fontes com a Bia.
- */
 @theme {
   --color-vinho: #5f051c;
   --color-creme: #fffff0;
@@ -11,11 +7,32 @@
   --color-limao: #edf7b7;
   --color-rosa: #ffe9f1;
 
-  /* Fontes: placeholders até a Bia confirmar quais foram usadas */
-  --font-display: var(--font-display-placeholder), system-ui, sans-serif;
-  --font-sans: var(--font-body-placeholder), system-ui, sans-serif;
-
   --breakpoint-desktop: 1920px;
+  /*
+   * Animação da faixa (Marquee), usada só abaixo de 1280px.
+   * Detalhes em src/components/home/Marquee.tsx. O 40s controla a velocidade.
+   */
+  --animate-marquee: marquee 40s linear infinite;
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Fontes: as variáveis --nf-* vêm do next/font (src/fonts/home.ts), definidas no wrapper da página. */
+@theme inline {
+  --font-sans: var(--nf-poppins), system-ui, sans-serif;
+  --font-salted: var(--nf-salted), cursive;
+  --font-gunter: var(--nf-gunter), system-ui, sans-serif;
+}
+
+/*
+ * Unidade fluida do desenho (1920px): 1 "u" = 1px a partir de 1920px de largura e encolhe
+ * proporcionalmente abaixo disso. Uso: w-[calc(581*var(--u))].
+ */
+:root {
+  --u: min(1px, 0.052083vw);
 }
 
 body {
@@ -47,6 +64,41 @@ body {
     repeating-linear-gradient(90deg, #ffffff 0 64px, #f9f5f7 64px 128px),
     repeating-linear-gradient(0deg, #ffffff 0 64px, #f9f5f7 64px 128px);
   background-blend-mode: multiply;
+}
+
+/*
+ * Seção Help abaixo de 1280px: o papel do caderno vira CSS (quadriculado + borda) e os
+ * post-its ganham sombra e fita adesiva. Em ≥1280px o layout usa papel.svg (ver Help.tsx).
+ */
+@media (max-width: 1279.98px) {
+  .papel-caderno {
+    /* Quadriculado de linhas finas, como o papel.svg (células ~54px, linha vinho a 50%) */
+    background-color: var(--color-creme);
+    background-image:
+      linear-gradient(90deg, rgb(95 5 28 / 0.5) 1px, transparent 1px),
+      linear-gradient(0deg, rgb(95 5 28 / 0.5) 1px, transparent 1px);
+    background-size: 54px 54px;
+    border: 1px solid var(--color-vinho);
+    border-radius: 24px;
+    box-shadow: 0 10px 24px rgb(0 0 0 / 0.25);
+  }
+
+  .postit {
+    position: relative;
+    box-shadow: 3px 6px 14px rgb(0 0 0 / 0.22);
+  }
+
+  .postit::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    width: 80px;
+    height: 22px;
+    transform: translateX(-50%) rotate(-3deg);
+    background: rgb(255 255 240 / 0.65);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.15);
+  }
 }
 
 /* Respeita quem prefere menos movimento (animações serão adicionadas depois) */
