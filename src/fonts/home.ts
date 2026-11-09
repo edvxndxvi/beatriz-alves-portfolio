@@ -1,14 +1,13 @@
-import { Krona_One, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 
 /**
  * Fontes da home. Cada uma expõe uma variável CSS (--nf-*) que o Tailwind usa em
  * `font-sans`, `font-salted` e `font-gunter` (ver globals.css).
  *
- * Salted: arquivo local licenciado (src/fonts/files).
- * TODO(licença): Gunter é comercial e ainda não está licenciada; o valor abaixo é uma
- * SUBSTITUTA livre do Google Fonts. Quando houver licença, troque por `next/font/local`,
- * mantendo o mesmo `variable`.
+ * Salted e Gunter: arquivos locais em src/fonts/files.
+ * TODO(licença): a Gunter é a versão "Test" (demo) e pode não ter todos os glifos (acentos,
+ * números); trocar pelo arquivo licenciado quando houver, mantendo o mesmo `variable`.
  */
 
 // Texto corrido (Poppins Light) — livre (OFL)
@@ -27,10 +26,10 @@ export const salted = localFont({
   variable: "--nf-salted",
 });
 
-// Placeholder da Gunter 400 (faixa em loop)
-export const gunter = Krona_One({
+// Gunter Test 400 (faixa em loop)
+export const gunter = localFont({
+  src: "./files/guntertest-regular.otf",
   weight: "400",
-  subsets: ["latin"],
   display: "swap",
   variable: "--nf-gunter",
 });
