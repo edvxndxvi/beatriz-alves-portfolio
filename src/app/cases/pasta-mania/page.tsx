@@ -87,10 +87,7 @@ export default function PastaManiaPage() {
         );
       })}
 
-      <section
-        aria-label="Stories"
-        className="lg:mt-[calc(85*var(--u))]"
-      >
+      <section aria-label="Stories" className="lg:mt-[calc(85*var(--u))]">
         <Stories />
       </section>
     </main>
