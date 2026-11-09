@@ -69,7 +69,7 @@ export default function Help() {
         </ul>
 
         {/* Post-it limão: serviços 03 e 04 */}
-        <ul className="postit bg-limao text-vinho flex -rotate-1 flex-col justify-center gap-6 p-6 md:p-7 xl:absolute xl:top-[22.7%] xl:left-[65%] xl:h-[64%] xl:w-[26.5%] xl:rotate-[-4.8deg] xl:gap-[4%] xl:p-[2%]">
+        <ul className="postit bg-limao text-vinho flex -rotate-1 flex-col justify-center gap-6 p-6 md:p-7 xl:absolute xl:top-[22.7%] xl:left-[65%] xl:h-[64%] xl:w-[26.5%] xl:rotate-[-4.8deg] xl:gap-[4%] xl:p-[1.5%]">
           <ServiceItem service={third} />
           <ServiceItem service={fourth} />
         </ul>
