@@ -17,6 +17,13 @@ export type CollageItem = {
    */
   mobileWidth?: number;
   /**
+   * Altura da peça no desenho (px), quando o quadro é mais baixo que o arquivo: a imagem é
+   * recortada pelo centro (object-cover) em vez de esticada. Padrão: proporção do arquivo.
+   */
+  height?: number;
+  /** Cantos arredondados (24px no desenho), como nas fotos dos cases da BB Seguros. */
+  rounded?: boolean;
+  /**
    * Legenda sob a peça (só em `mobile="stack"`). Em lg+ fica posicionada sem ocupar espaço no
    * fluxo; abaixo disso vem logo após a imagem.
    */
@@ -112,6 +119,10 @@ export default function CaseCollage({
           ? "absolute top-(--py) left-(--px) h-auto w-(--pw)"
           : "w-(--mw) max-w-none lg:absolute lg:top-(--y) lg:left-(--x) lg:w-(--w)";
 
+        const crop = item.height
+          ? ({ aspectRatio: `${w}/${item.height}` } as CSSProperties)
+          : undefined;
+        const shape = `${item.height ? "object-cover " : ""}${item.rounded ? "rounded-[calc(24*var(--u))] " : ""}`;
         const image = (
           <Image
             src={img.src}
@@ -119,8 +130,10 @@ export default function CaseCollage({
             width={img.width}
             height={img.height}
             sizes={sizes}
-            style={cap ? undefined : style}
-            className={cap ? "h-auto w-full" : `h-auto ${position}`}
+            style={cap ? crop : { ...style, ...crop }}
+            className={
+              cap ? `${shape}h-auto w-full` : `${shape}h-auto ${position}`
+            }
           />
         );
         const extra = moved.get(item.name)?.map((text) => (
