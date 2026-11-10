@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio — Beatriz Alves
 
-## Getting Started
+Site de portfólio desenvolvido para a **Beatriz Alves**, designer gráfica e diretora de arte. Transforma o layout criado por ela no Figma em um site fiel ao design, rápido e leve, que apresenta sua trajetória, seus serviços e 11 cases de identidade visual, campanhas e peças de eventos.
 
-First, run the development server:
+## O projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home** com apresentação, faixa animada, serviços e as pastas de projetos.
+- **11 páginas de case**, cada uma com sua própria composição de imagens e tipografia, para respeitar a identidade de cada marca.
+- **Compartilhamento pronto**: cada case tem imagem de pré-visualização (Open Graph) própria para LinkedIn, WhatsApp e redes sociais.
+- **Totalmente estático**, sem servidor, com carregamento rápido em qualquer host.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Cases
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Corridas · Dia das Crianças · Dash · Pasta Mania · Asics Campanha · Ação de Visibilidade · Bora Encantar · Fórmula 1 · Kick-off · Vibrações Urbanas · Volta às Aulas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Destaques técnicos
 
-## Learn More
+- **Fidelidade ao Figma:** layout de 1920px implementado a partir do arquivo de design, com tokens de cor e fontes por case.
+- **Pipeline de imagens próprio:** script em Node com `sharp` que converte os originais exportados do Figma para WebP (até 2400px, pensando em telas retina), copia SVGs e gera um manifesto com largura e altura de cada arquivo, evitando saltos de layout.
+- **Imagens de compartilhamento automáticas:** outro script gera os JPGs 1200×630 de cada case, cortando ou centralizando a imagem conforme a proporção para não perder texto.
+- **Tipografia por projeto:** cada case carrega suas fontes locais (como a ASICS Font 3.0), mantendo a identidade de cada cliente.
+- **Conteúdo separado do código:** textos, lista de cases e metadados ficam em `src/data`, então atualizar o portfólio não exige mexer nos componentes.
+- **Componentes reutilizáveis** para cabeçalho e colagem de imagens dos cases, que mantêm as páginas consistentes e fáceis de ampliar.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js (App Router, export estático) · React · TypeScript · Tailwind CSS 4 · sharp · ESLint · Prettier
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Créditos
 
-## Deploy on Vercel
+Design e conteúdo: **Beatriz Alves**
+Desenvolvimento: [**Edvan Davi**](https://github.com/edvxndxvi)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Todos os trabalhos, imagens e marcas exibidos pertencem aos seus respectivos autores e clientes.
