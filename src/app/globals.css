@@ -21,6 +21,12 @@
   /* Vermelho dos cases da Claro Empresas */
   --color-claro: #da291c;
 
+  /* Paleta do case Dia das Crianças (Núclea): cores dos Super-Nuclinhos */
+  --color-nuclea-lilas: #cc99ff;
+  --color-nuclea-limao: #dbed1f;
+  --color-nuclea-menta: #2dffcc;
+  --color-grafite: #282828;
+
   /* Paleta dos cases do Banco do Brasil (BrasilSeg e BB Seguros) */
   --color-bb-azul: #3460fc;
   --color-bb-ciano: #00dcfc;
@@ -48,6 +54,7 @@
   --font-montserrat: var(--nf-montserrat), system-ui, sans-serif;
   --font-impact: Impact, Haettenschweiler, var(--nf-anton), sans-serif;
   --font-claro: var(--nf-amx), system-ui, sans-serif;
+  --font-abc-mono: var(--nf-abc-mono), ui-monospace, monospace;
   --font-bb-titulo: var(--nf-bb-titulo), system-ui, sans-serif;
   --font-bb-texto: var(--nf-bb-texto), system-ui, sans-serif;
   --font-inter: var(--nf-inter), system-ui, sans-serif;
