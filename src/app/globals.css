@@ -21,6 +21,12 @@
   /* Vermelho dos cases da Claro Empresas */
   --color-claro: #da291c;
 
+  /* Paleta dos cases do Banco do Brasil (BrasilSeg e BB Seguros) */
+  --color-bb-azul: #3460fc;
+  --color-bb-ciano: #00dcfc;
+  --color-bb-amarelo: #f8f800;
+  --color-bb-lilas: #9898d8;
+
   --breakpoint-desktop: 1920px;
   /*
    * Animação da faixa (Marquee), usada só abaixo de 1280px.
@@ -42,6 +48,8 @@
   --font-montserrat: var(--nf-montserrat), system-ui, sans-serif;
   --font-impact: Impact, Haettenschweiler, var(--nf-anton), sans-serif;
   --font-claro: var(--nf-amx), system-ui, sans-serif;
+  --font-bb-titulo: var(--nf-bb-titulo), system-ui, sans-serif;
+  --font-bb-texto: var(--nf-bb-texto), system-ui, sans-serif;
   --font-inter: var(--nf-inter), system-ui, sans-serif;
 }
 
@@ -139,4 +147,30 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/*
+ * Marca-texto amarela sob o texto (cases do Banco do Brasil). Aplicar num <span>.
+ * --mh: espessura; --mb: distância da base da caixa de texto (padrão 0).
+ */
+.marca-amarela {
+  background: linear-gradient(
+    to top,
+    transparent var(--mb, 0px),
+    var(--color-bb-amarelo) var(--mb, 0px),
+    var(--color-bb-amarelo) calc(var(--mb, 0px) + var(--mh, 20px)),
+    transparent 0
+  );
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Linha tracejada divisória (cases do Banco do Brasil) */
+.tracejado {
+  height: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--color-bb-lilas) 0 14px,
+    transparent 14px 28px
+  );
 }
