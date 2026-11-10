@@ -23,6 +23,8 @@ export type CollageItem = {
   height?: number;
   /** Cantos arredondados (24px no desenho), como nas fotos dos cases da BB Seguros. */
   rounded?: boolean;
+  /** Contorno de 1px na cor `--color-grafite`, como no key visual do case Dia das Crianças. */
+  bordered?: boolean;
   /**
    * Legenda sob a peça (só em `mobile="stack"`). Em lg+ fica posicionada sem ocupar espaço no
    * fluxo; abaixo disso vem logo após a imagem.
@@ -62,6 +64,7 @@ export default function CaseCollage({
   height,
   items,
   mobile = "stack",
+  stackMaxWidth = "max-w-md",
   captionClassName = "",
 }: {
   slug: string;
@@ -70,6 +73,8 @@ export default function CaseCollage({
   height: number;
   items: readonly CollageItem[];
   mobile?: "stack" | "scale";
+  /** Só no `mobile="stack"`: largura máxima da coluna abaixo de lg (classe do Tailwind). Padrão "max-w-md". */
+  stackMaxWidth?: string;
   /** Estilo do texto das legendas (fonte, tamanho, cor) */
   captionClassName?: string;
 }) {
@@ -96,7 +101,7 @@ export default function CaseCollage({
       className={
         scale
           ? "relative mx-auto w-full max-w-2xl lg:w-(--cw) lg:max-w-none"
-          : "mx-auto flex w-full max-w-md flex-col items-center gap-6 lg:relative lg:block lg:h-(--ch) lg:w-(--cw) lg:max-w-none lg:gap-0"
+          : `mx-auto flex w-full ${stackMaxWidth} flex-col items-center gap-6 lg:relative lg:block lg:h-(--ch) lg:w-(--cw) lg:max-w-none lg:gap-0`
       }
     >
       {items.map((item) => {
@@ -122,7 +127,7 @@ export default function CaseCollage({
         const crop = item.height
           ? ({ aspectRatio: `${w}/${item.height}` } as CSSProperties)
           : undefined;
-        const shape = `${item.height ? "object-cover " : ""}${item.rounded ? "rounded-[calc(24*var(--u))] " : ""}`;
+        const shape = `${item.height ? "object-cover " : ""}${item.rounded ? "rounded-[calc(24*var(--u))] " : ""}${item.bordered ? "border border-grafite " : ""}`;
         const image = (
           <Image
             src={img.src}
