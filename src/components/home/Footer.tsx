@@ -27,7 +27,7 @@ export default function Footer() {
           className="absolute top-[calc(60*var(--u))] left-[calc(1600*var(--u))] hidden h-auto w-[calc(245*var(--u))] lg:block"
         />
 
-        <div className="mx-auto flex max-w-[1920px] flex-col items-center gap-10 px-5 py-14 lg:block lg:h-[calc(620*var(--u))] lg:p-0">
+        <div className="mx-auto flex max-w-[1920px] items-center gap-10 px-5 py-14 lg:block lg:h-[calc(620*var(--u))] lg:p-0">
           <Image
             src="/images/home/logo-footer.svg"
             alt="beatriz"
@@ -41,10 +41,10 @@ export default function Footer() {
               <li key={row.icon}>
                 <a
                   href={row.href}
-                  className="focus-visible:outline-limao flex items-center gap-4 break-all focus-visible:outline-2 focus-visible:outline-offset-4 lg:gap-[calc(20*var(--u))]"
+                  className="focus-visible:outline-limao flex items-center gap-4 break-all focus-visible:outline-2 focus-visible:outline-offset-4 lg:gap-[calc(20*var(--u))] hover:underline"
                 >
                   {/* Estrela: 64px de altura, largura pela proporção do SVG (54×52); ícone centralizado. */}
-                  <span className="relative flex aspect-54/52 h-16 shrink-0 items-center justify-center">
+                  <span className="relative flex aspect-54/52 h-10 lg:h-16 shrink-0 items-center justify-center">
                     <Image
                       src="/images/home/estrela-limao.svg"
                       alt=""
