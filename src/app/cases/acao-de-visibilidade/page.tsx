@@ -1,19 +1,18 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import type { ReactNode } from "react";
 import CaseCollage, { type CollageItem } from "@/components/case/CaseCollage";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { acaoFontVariables } from "@/fonts/acao-de-visibilidade";
 
 const slug = "acao-de-visibilidade";
 const c = cases.find((x) => x.slug === slug)!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Ação de Visibilidade: materiais de divulgação do Samaritano Paulista (Rede Américas) em academias, padarias e restaurantes, livrarias e bares durante a Copa do Mundo.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Ação de Visibilidade: materiais de divulgação do Samaritano Paulista (Rede Américas) em academias, padarias e restaurantes, livrarias e bares durante a Copa do Mundo.",
+);
 
 /**
  * Posições das peças no desenho do Figma (1920px de largura). Cada colagem tem a origem no

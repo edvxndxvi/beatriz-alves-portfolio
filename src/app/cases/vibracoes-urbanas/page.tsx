@@ -1,17 +1,16 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import type { CSSProperties } from "react";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { vibracoesFontVariables } from "@/fonts/vibracoes";
 
 const c = cases.find((x) => x.slug === "vibracoes-urbanas")!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Vibrações Urbanas: revista sobre festas de música eletrônica em espaços públicos no Brasil, com identidade visual e projeto gráfico editorial.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Vibrações Urbanas: revista sobre festas de música eletrônica em espaços públicos no Brasil, com identidade visual e projeto gráfico editorial.",
+);
 
 // TODO(conferir): endereço lido de um screenshot do Figma.
 const magazineUrl = "https://heyzine.com/flip-book/fd5a5497e3.html#page/1";

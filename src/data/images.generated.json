@@ -118,8 +118,8 @@
       {
         "name": "0-asics-logo",
         "src": "/images/cases/asics-campanha/0-asics-logo.svg",
-        "width": 176,
-        "height": 57,
+        "width": 797,
+        "height": 341,
         "kind": "svg"
       },
       {
@@ -595,10 +595,17 @@
         "kind": "raster"
       },
       {
+        "name": "05-totem-guarda-volumes",
+        "src": "/images/cases/corridas/dog-race/05-totem-guarda-volumes.webp",
+        "width": 718,
+        "height": 1380,
+        "kind": "raster"
+      },
+      {
         "name": "06-instagramavel",
         "src": "/images/cases/corridas/dog-race/06-instagramavel.webp",
         "width": 2400,
-        "height": 1808,
+        "height": 1806,
         "kind": "raster"
       }
     ],

@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import CaseCollage, { type CollageItem } from "@/components/case/CaseCollage";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { claroFontVariables } from "@/fonts/claro";
 
 const slug = "formula-1";
 const c = cases.find((x) => x.slug === slug)!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Formula 1: experiência da Claro Empresas, fornecedora oficial de telecomunicações e TI do GP São Paulo F1 2026, com key visuals, convites, site, instagramáveis, sinalização, kit e agenda.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Formula 1: experiência da Claro Empresas, fornecedora oficial de telecomunicações e TI do GP São Paulo F1 2026, com key visuals, convites, site, instagramáveis, sinalização, kit e agenda.",
+);
 
 /** Largura das peças em coluna cheia (Figma: 1228px) sobre o arquivo de 2400px. */
 const full = 1228 / 2400;

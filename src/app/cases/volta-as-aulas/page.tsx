@@ -1,19 +1,18 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import type { CSSProperties, ReactNode } from "react";
 import CaseCollage, { type CollageItem } from "@/components/case/CaseCollage";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { voltaFontVariables } from "@/fonts/volta-as-aulas";
 
 const slug = "volta-as-aulas";
 const c = cases.find((x) => x.slug === slug)!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Volta às Aulas: campanha da Pravaler com key visual, estande e brindes, sob o conceito “Educação sem obstáculos, diversão sem limites”.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Volta às Aulas: campanha da Pravaler com key visual, estande e brindes, sob o conceito “Educação sem obstáculos, diversão sem limites”.",
+);
 
 const estande = [
   {

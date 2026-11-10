@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import CaseCollage, { type CollageItem } from "@/components/case/CaseCollage";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { claroFontVariables } from "@/fonts/claro";
 
 const slug = "kick-off";
 const c = cases.find((x) => x.slug === slug)!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Kick Off: evento de integração da Claro Empresas, com key visual, save the date, credenciamento, sinalização, plenária e gift in.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Kick Off: evento de integração da Claro Empresas, com key visual, save the date, credenciamento, sinalização, plenária e gift in.",
+);
 
 /**
  * Peças posicionadas como no Figma (1920px de largura). A colagem começa no topo do key visual

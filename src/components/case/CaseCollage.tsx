@@ -17,6 +17,15 @@ export type CollageItem = {
    */
   mobileWidth?: number;
   /**
+   * Altura da peça no desenho (px), quando o quadro é mais baixo que o arquivo: a imagem é
+   * recortada pelo centro (object-cover) em vez de esticada. Padrão: proporção do arquivo.
+   */
+  height?: number;
+  /** Cantos arredondados (24px no desenho), como nas fotos dos cases da BB Seguros. */
+  rounded?: boolean;
+  /** Contorno de 1px na cor `--color-grafite`, como no key visual do case Dia das Crianças. */
+  bordered?: boolean;
+  /**
    * Legenda sob a peça (só em `mobile="stack"`). Em lg+ fica posicionada sem ocupar espaço no
    * fluxo; abaixo disso vem logo após a imagem.
    */
@@ -55,6 +64,7 @@ export default function CaseCollage({
   height,
   items,
   mobile = "stack",
+  stackMaxWidth = "max-w-md",
   captionClassName = "",
 }: {
   slug: string;
@@ -63,6 +73,8 @@ export default function CaseCollage({
   height: number;
   items: readonly CollageItem[];
   mobile?: "stack" | "scale";
+  /** Só no `mobile="stack"`: largura máxima da coluna abaixo de lg (classe do Tailwind). Padrão "max-w-md". */
+  stackMaxWidth?: string;
   /** Estilo do texto das legendas (fonte, tamanho, cor) */
   captionClassName?: string;
 }) {
@@ -89,7 +101,7 @@ export default function CaseCollage({
       className={
         scale
           ? "relative mx-auto w-full max-w-2xl lg:w-(--cw) lg:max-w-none"
-          : "mx-auto flex w-full max-w-md flex-col items-center gap-6 lg:relative lg:block lg:h-(--ch) lg:w-(--cw) lg:max-w-none lg:gap-0"
+          : `mx-auto flex w-full ${stackMaxWidth} flex-col items-center gap-6 lg:relative lg:block lg:h-(--ch) lg:w-(--cw) lg:max-w-none lg:gap-0`
       }
     >
       {items.map((item) => {
@@ -112,6 +124,10 @@ export default function CaseCollage({
           ? "absolute top-(--py) left-(--px) h-auto w-(--pw)"
           : "w-(--mw) max-w-none lg:absolute lg:top-(--y) lg:left-(--x) lg:w-(--w)";
 
+        const crop = item.height
+          ? ({ aspectRatio: `${w}/${item.height}` } as CSSProperties)
+          : undefined;
+        const shape = `${item.height ? "object-cover " : ""}${item.rounded ? "rounded-[calc(24*var(--u))] " : ""}${item.bordered ? "border border-grafite " : ""}`;
         const image = (
           <Image
             src={img.src}
@@ -119,8 +135,10 @@ export default function CaseCollage({
             width={img.width}
             height={img.height}
             sizes={sizes}
-            style={cap ? undefined : style}
-            className={cap ? "h-auto w-full" : `h-auto ${position}`}
+            style={cap ? crop : { ...style, ...crop }}
+            className={
+              cap ? `${shape}h-auto w-full` : `${shape}h-auto ${position}`
+            }
           />
         );
         const extra = moved.get(item.name)?.map((text) => (
@@ -149,7 +167,7 @@ export default function CaseCollage({
             <figure style={style} className={position}>
               {image}
               <figcaption
-                className={`${cap.mobileAfter ? "max-lg:hidden" : "mt-2"} lg:absolute lg:top-(--cy) lg:left-(--cx) lg:mt-0 lg:whitespace-nowrap ${align} ${captionClassName}`}
+                className={`${cap.mobileAfter ? "max-lg:hidden" : "mt-2"} lg:absolute lg:top-(--cy) lg:left-(--cx) lg:mt-0 lg:whitespace-pre ${align} ${captionClassName}`}
               >
                 {cap.text}
               </figcaption>

@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import type { CSSProperties } from "react";
 import IdentityCollage from "@/components/case/pasta-mania/IdentityCollage";
 import Stories from "@/components/case/pasta-mania/Stories";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 
 const c = cases.find((x) => x.slug === "pasta-mania")!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Pasta Mania: identidade visual de uma marca de massas frescas, com logo, paleta, embalagens, outdoor, cardápio e peças para redes sociais.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Pasta Mania: identidade visual de uma marca de massas frescas, com logo, paleta, embalagens, outdoor, cardápio e peças para redes sociais.",
+);
 
 // Peças em tela cheia, na ordem da página, com a largura que têm no Figma (px).
 const pieces = [
