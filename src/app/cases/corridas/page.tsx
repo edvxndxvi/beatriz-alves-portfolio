@@ -1,19 +1,18 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import type { CSSProperties } from "react";
 import CaseCollage, { type CollageItem } from "@/components/case/CaseCollage";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { corridasFontVariables } from "@/fonts/corridas";
 
 const slug = "corridas";
 const c = cases.find((x) => x.slug === slug)!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Corridas: a plataforma “Soluções pra Viver Bem” da BB Seguros em quatro corridas (Bota pra Correr, Dog Race, Circuitinho das Estações e Girl Power), com key visuals, estandes, guarda-volumes, instagramáveis e meias colecionáveis.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Corridas: a plataforma “Soluções pra Viver Bem” da BB Seguros em quatro corridas (Bota pra Correr, Dog Race, Circuitinho das Estações e Girl Power), com key visuals, estandes, guarda-volumes, instagramáveis e meias colecionáveis.",
+);
 
 /** Largura das peças em coluna cheia (Figma: 1220px) sobre o arquivo de 2400px. */
 const full = 1220 / 2400;

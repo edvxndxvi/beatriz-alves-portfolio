@@ -1,17 +1,16 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { bancoBrasilFontVariables } from "@/fonts/bancobrasil";
 
 const slug = "bora-encantar";
 const c = cases.find((x) => x.slug === slug)!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Bora Encantar: plataforma digital da Jornada do Cliente da BrasilSeg, com tela home, passaporte digital e cinco games (Decolagem, Escala, Conexão, Destino e Bagagem).",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Bora Encantar: plataforma digital da Jornada do Cliente da BrasilSeg, com tela home, passaporte digital e cinco games (Decolagem, Escala, Conexão, Destino e Bagagem).",
+);
 
 type Shot = { name: string; alt: string };
 

@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import AppScreens from "@/components/case/dash/AppScreens";
 import IdentityCollage from "@/components/case/dash/IdentityCollage";
 import { caseImage } from "@/data/caseImages";
+import { caseMetadata } from "@/data/caseMetadata";
 import { cases } from "@/data/cases";
 import { dashFontVariables } from "@/fonts/dash";
 
 const c = cases.find((x) => x.slug === "dash")!;
 
-export const metadata: Metadata = {
-  title: `${c.title} — ${c.client} | Beatriz Alves`,
-  description:
-    "Case Dash: identidade visual e interface de um aplicativo de entrega de comida rápido e prático.",
-};
+export const metadata = caseMetadata(
+  c,
+  "Case Dash: identidade visual e interface de um aplicativo de entrega de comida rápido e prático.",
+);
 
 // Texto do Figma (frame "dash", 189:173).
 const description =
