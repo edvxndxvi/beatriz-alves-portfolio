@@ -18,6 +18,9 @@
   /* Laranja do case Volta às Aulas (Pravaler) */
   --color-pravaler: #e75f29;
 
+  /* Vermelho dos cases da Claro Empresas */
+  --color-claro: #da291c;
+
   --breakpoint-desktop: 1920px;
   /*
    * Animação da faixa (Marquee), usada só abaixo de 1280px.
@@ -38,6 +41,7 @@
   --font-gunter: var(--nf-gunter), system-ui, sans-serif;
   --font-montserrat: var(--nf-montserrat), system-ui, sans-serif;
   --font-impact: Impact, Haettenschweiler, var(--nf-anton), sans-serif;
+  --font-claro: var(--nf-amx), system-ui, sans-serif;
   --font-inter: var(--nf-inter), system-ui, sans-serif;
 }
 
