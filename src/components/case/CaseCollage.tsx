@@ -167,7 +167,7 @@ export default function CaseCollage({
             <figure style={style} className={position}>
               {image}
               <figcaption
-                className={`${cap.mobileAfter ? "max-lg:hidden" : "mt-2"} lg:absolute lg:top-(--cy) lg:left-(--cx) lg:mt-0 lg:whitespace-nowrap ${align} ${captionClassName}`}
+                className={`${cap.mobileAfter ? "max-lg:hidden" : "mt-2"} lg:absolute lg:top-(--cy) lg:left-(--cx) lg:mt-0 lg:whitespace-pre ${align} ${captionClassName}`}
               >
                 {cap.text}
               </figcaption>
